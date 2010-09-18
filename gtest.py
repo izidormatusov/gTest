@@ -27,7 +27,6 @@ class Tester:
 		head = gtk.HBox()
 
 		img = gtk.Image()
-		#img.set_from_stock("preferences-desktop-remote-desktop")
 		head.pack_start(img)
 
 		label = gtk.Label(u"<b>Testovač pripojenia</b>")
@@ -112,5 +111,8 @@ class Tester:
 
 
 if __name__ == "__main__":
-	accessPoints = [('Povala', '192.168.99.100'), ('Stráňa', '10.132.101.1'), ('Škola', '10.10.132.1'), ('Internet', '192.168.1.6')]
+        accessPoints = [('Point A', '1.1.1.1'),
+                        ('Point B', '2.2.2.2'),
+                        ('Point C', '3.3.3.3'),
+                        ('Google DNS', '8.8.8.8')]
 	Tester(accessPoints).run()
