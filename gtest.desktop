@@ -4,7 +4,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/usr/local/bin/gtest.py
+Exec=gtest.py
 Name[sk_SK]=Testovač internetu
 Name=Internet tester
-Icon=/usr/share/icons/Humanity/mimes/64/text-x-install.svg
+Icon=text-x-install.svg
